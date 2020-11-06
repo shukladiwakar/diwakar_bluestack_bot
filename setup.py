@@ -11,6 +11,7 @@ client = discord.Client()
 
 @client.event
 async def on_message(message):
+    print("Application has started")
     if message.author == client.user:
         return
 
