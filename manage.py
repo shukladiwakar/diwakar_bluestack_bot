@@ -14,9 +14,10 @@ client = discord.Client()
 @client.event
 async def on_message(message):
     print("Application has started")
+    # return in case the bot tries to talk to self
     if message.author == client.user:
         return
-
+    # response from the message handler
     response = query_router(message)
     if type(response) is str:
         await message.channel.send(response)
@@ -25,10 +26,10 @@ async def on_message(message):
             await message.channel.send(url)
 
 
-
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gettingstarted.settings")
 
     from django.core.management import execute_from_command_line
+
     client.run(TOKEN)
     execute_from_command_line(sys.argv)
