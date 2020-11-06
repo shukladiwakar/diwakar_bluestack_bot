@@ -1,7 +1,6 @@
 import pymongo
 
-client = pymongo.MongoClient(
-    "mongodb+srv://bluestack_user:bluestack_11_nov@cluster0.6oftr.mongodb.net/<dbname>?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://bluestack_user:bluestack_11_nov@cluster0.6oftr.mongodb.net/<dbname>?retryWrites=true&w=majority")
 db = client.test
 
 posts = db.posts
