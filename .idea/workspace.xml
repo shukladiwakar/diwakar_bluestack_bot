@@ -25,7 +25,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5cb8a0e-e848-4429-9a29-37051651fae9" name="Default Changelist" comment="cmnt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djangoProject4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-getting-started.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile.windows" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dBConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/dBConnection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gettingstarted/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gettingstarted/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gettingstarted/static/humans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gettingstarted/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gettingstarted/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/static/lang-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/db.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +165,7 @@
       <workItem from="1604688319804" duration="421000" />
       <workItem from="1604689362407" duration="1659000" />
       <workItem from="1604721135799" duration="1010000" />
+      <workItem from="1604722275223" duration="1633000" />
     </task>
     <task id="LOCAL-00001" summary="removed the credentials">
       <created>1604689522707</created>

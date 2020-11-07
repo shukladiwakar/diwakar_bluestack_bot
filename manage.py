@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import os
-import sys
 import discord
 from dotenv import load_dotenv
 from searchHandler import query_router
@@ -26,11 +25,5 @@ async def on_message(message):
             await message.channel.send(url)
 
 
-if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gettingstarted.settings")
-
-    from django.core.management import execute_from_command_line
-
-    print("Diwakar Aplication")
-    client.run(TOKEN)
-    execute_from_command_line(sys.argv)
+print("Diwakar Aplication")
+client.run(TOKEN)
