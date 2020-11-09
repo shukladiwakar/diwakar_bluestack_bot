@@ -24,42 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5cb8a0e-e848-4429-9a29-37051651fae9" name="Default Changelist" comment="cmnt">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangoProject4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-getting-started.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile.windows" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dBConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/dBConnection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gettingstarted/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gettingstarted/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gettingstarted/static/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gettingstarted/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gettingstarted/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/static/lang-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/templates/db.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
+    <list default="true" id="d5cb8a0e-e848-4429-9a29-37051651fae9" name="Default Changelist" comment="final">
+      <change afterPath="$PROJECT_DIR$/test/googleSearch_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,19 +53,19 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Django" type="Python.DjangoServer" factoryName="Django server">
-      <module name="python-getting-started" />
+    <configuration name="googleSearch_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="gettingstarted.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\ds55291\PycharmProjects\djangoProject3\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <EXTENSION ID="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -109,15 +76,13 @@
           <ENTRY IS_ENABLED="true" PARSER="runconfig" />
         </ENTRIES>
       </EXTENSION>
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/googleSearch_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -153,6 +118,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.googleSearch_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -165,7 +135,8 @@
       <workItem from="1604688319804" duration="421000" />
       <workItem from="1604689362407" duration="1659000" />
       <workItem from="1604721135799" duration="1010000" />
-      <workItem from="1604722275223" duration="1633000" />
+      <workItem from="1604722275223" duration="2273000" />
+      <workItem from="1604897560402" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="removed the credentials">
       <created>1604689522707</created>
@@ -195,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604721288149</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final">
+      <created>1604725270450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604725270450</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,13 +194,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed the credentials" />
     <MESSAGE value="cmnt" />
-    <option name="LAST_COMMIT_MESSAGE" value="cmnt" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="219" y="57" width="1097" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604688740595">
+    <state x="219" y="6" width="1097" height="818" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604898356898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="219" y="57" width="1097" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604688740595" />
+    <state x="219" y="6" width="1097" height="818" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604898356898" />
     <state width="1481" height="195" key="GridCell.Tab.0.bottom" timestamp="1604722145804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -239,9 +218,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1481" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604722145804" />
-    <state x="261" y="79" key="Vcs.Push.Dialog.v2" timestamp="1604690895499">
+    <state x="261" y="79" key="Vcs.Push.Dialog.v2" timestamp="1604725283681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="79" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604690895499" />
+    <state x="261" y="79" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604725283681" />
   </component>
 </project>
